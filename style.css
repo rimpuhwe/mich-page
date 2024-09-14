@@ -134,6 +134,7 @@ body {
 
 .profile-page .btn-box {
     margin-top: 1rem;
+    margin-bottom: .5rem;
 
 }
 
@@ -165,4 +166,81 @@ body {
 .btn-box .btn:nth-child(2):hover {
     background: var(--main-color);
     color: var(--white-color)
+}
+.book-page.page-right{
+    position: absolute;
+    right:0;
+    transform-style: preserve-3d;
+    transform-origin: left ;
+}
+.book-page.page-right.turn{
+    transform:rotateY(-180deg) ;
+}
+.book-page .page-front , .book-page .page-back{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: var(--page-color);
+    padding:0.5rem 2rem
+}
+.book-page .page-front{
+    transform: rotateY(0deg) translateZ(1kpx) ;
+}
+.book-page .page-back{
+    transform: rotateY(180deg) translateZ(1px) ;
+}
+.workeduc-box{
+    border-left: var(--border);
+    margin-bottom: 1rem;
+}
+.workeduc-box .workeduc-content{
+    padding-left:1rem;
+    margin-bottom:0.3rem;
+    
+}
+.workeduc-content .year{
+    color:var(--main-color);
+    font-weight:700;
+    font-size: 20px;
+}
+.workeduc-content .year i{
+    margin-right:.4rem ;
+}
+.page-front .workeduc-content p{
+    font-size: 17px;
+}
+.title{
+    text-align: center;
+    margin-bottom:.5rem;
+}
+.number-page{
+    position: absolute;
+    bottom:.2rem;
+    left:50%;
+    transform: translateX(-50deg);
+    font-size: 20px;
+
+}
+.nextprev-btn{
+    position:absolute;
+    width:1.5rem;
+    height:1.5rem;
+    bottom:.5rem;
+    right:3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color:var(--second-text-color);
+    display: inline-flex;
+    justify-content:center ;
+    align-items: centerk;
+    transition:.5s ;
+   
+}
+.nextprev-btn :hover{
+    color:var(--main-color)
+}
+.nextprev-btn.back{
+   left:1.5rem;
 }
