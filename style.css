@@ -274,3 +274,37 @@ body {
 width:5rem;
 height: 2rem;
 }
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem
+}
+.skills-box .skills-content{
+    
+    flex:1 1 20rem
+}
+.skills-content .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap:.4rem
+}
+.skills-content .content span{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:6rem;
+    height:5rem;
+    border:var(--border) ;
+    border-radius: .5rem;
+    font-weight: 600;
+    transition: .3s ease;
+}
+.skills-content .content span:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.skills-content .content span i{
+    font-size: 2rem;
+    color: var(--main-color);
+}
