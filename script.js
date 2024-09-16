@@ -1,4 +1,4 @@
-//turning the page when clicking the arrows
+
 const pageTurnBtn = document.querySelectorAll('.nextprev-btn');
 
 pageTurnBtn.forEach((el, index) => {
@@ -20,6 +20,7 @@ pageTurnBtn.forEach((el, index) => {
         };
     };
 });
+
 const pages = document.querySelectorAll('.book-page.page-right');
 const contactMeBtn = document.querySelector('.btn.contact-me');
 
