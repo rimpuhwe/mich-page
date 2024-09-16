@@ -1,0 +1,1 @@
+//turning the page when clicking the arrows
