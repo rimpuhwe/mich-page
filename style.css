@@ -87,8 +87,8 @@ body {
 }
 
 .profile-page img {
-    max-width: 200px;
-    max-height: 120px;
+    max-width:100px;
+    max-height: 70px;
     border-radius: 50%;
     border: .25rem solid var(--main-color);
     margin-bottom: .5rem;
@@ -144,7 +144,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 6rem;
-    height: 3rem;
+    height: 2rem;
     margin: 0 2rem;
     color: var(--white-color);
     font-size: 0.7rem;
@@ -211,6 +211,7 @@ body {
 }
 .page-front .workeduc-content p{
     font-size: 17px;
+    padding: .8rem;
 }
 .title{
     text-align: center;
